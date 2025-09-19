@@ -7,8 +7,8 @@ const app = express();
 const server = http.createServer(app);
 
 const allowedOrigins = [
-  process.env.CORS_FRONT_END_BASE_URL,
-  process.env.CORS_FRONT_END_WWW_URL,
+  "https://talkpix.com.br",
+  "https://www.talkpix.com.br"
 ];
 
 app.use(cors({
